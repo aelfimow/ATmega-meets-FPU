@@ -19,8 +19,8 @@ int main(void)
 {
     uint8_t cnt = 0U;
 
-	/* Disable interrupts */
-	cli();
+    /* Disable interrupts */
+    cli();
 
     npe_reset();
     npe_select_off();
@@ -134,6 +134,6 @@ int main(void)
         ++cnt;
     }
 
-	return 0;
+    return 0;
 }
 
